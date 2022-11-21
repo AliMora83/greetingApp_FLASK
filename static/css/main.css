@@ -1,10 +1,10 @@
 body {
     text-align: center;
-    background-color: SlateGrey;
+    background-color: #242424;
 }
 p {
     color: white;
-    font-family: Shanti;
+    font-family: Roboto;
     font-size: 1.2em;
     display: inline-block;
     margin:  20px;
@@ -19,14 +19,14 @@ input {
   height: 50px;
   border: none;
   border-radius: 10px;
-  font-family: Shanti;
+  font-family: Roboto;
   font-size: 1.3em;
   text-align: center;
 }
 
 input:focus {
     outline: none;
-    border: solid 5px #00FFCE;
+    border: solid 3px #f7ab0a;
 }
 
 #greet {
