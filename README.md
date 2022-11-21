@@ -1,9 +1,10 @@
 # greetingApp_FLASK
-a simple greeting app built with flask, ready to deploy to Heroku
+a simple greeting app built with flask.
 
-![ss](https://user-images.githubusercontent.com/32107652/134775021-659d1384-0c37-43a7-b373-593d87f2b475.png)
+![New Pic](/static/hello_python.png)
+
+
 <br>
 <br>
-Author: Mariya Sha
+Author: Ali Mora
 <br>
-Watch on YouTube: https://youtu.be/6plVs_ytIH8
