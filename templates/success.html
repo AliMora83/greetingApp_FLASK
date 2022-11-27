@@ -7,8 +7,6 @@
              <p>{{ message }}</p>
          {% endfor %}
         <br>
-        <input type="text" name="name_input">
-        <br>
-        <input type="submit" value="GREET" id="greet" onclick="submitForm()">
+        <input type="button" value="Back" id="greet" onclick="history.go(-1)">
     </form>
 {% endblock %}
