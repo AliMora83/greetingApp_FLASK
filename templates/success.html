@@ -2,11 +2,6 @@
 {% block body %}
     <img src="/static/nk_nft.png">
     <br>
-    <form action="greet" method="post" autocomplete="off">
-        {% for message in get_flashed_messages() %}
-             <p>{{ message }}</p>
-         {% endfor %}
-        <br>
-        <input type="button" value="Back" id="greet" onclick="history.go(-1)">
-    </form>
+    <p>Success!</p>
+       
 {% endblock %}
