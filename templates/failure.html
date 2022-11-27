@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+    <img src="/static/nk_nft.png">
+    <br>
+    <p>Failed. Please type your name.</p>
+        <form action="greet" method="post" autocomplete="off">
+            <input type="button" value="Back" id="greet" onclick="history.back()">
+        </form>
+    
+{% endblock %}

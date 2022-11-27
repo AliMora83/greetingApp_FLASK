@@ -1,14 +1,17 @@
 {% extends "layout.html" %}
 {% block body %}
-    <img src="/static/nk_nft.png">
+   
+    <h1>Register for NAMKA</h1>
     <br>
-    <form action="greet" method="post" autocomplete="off">
-        {% for message in get_flashed_messages() %}
-             <p>{{ message }}</p>
-         {% endfor %}
+    <form action="/registered" method="post">
+        <input type="text" name="name" autocomplete="off" placeholder="Name" autofocus name="name">
+        <select name="dorm">
+            <option disabled selected value="">City</option>
+            <option value="Bloem">Bloem</option>
+            <option value="Durban">Durban</option>
+            <option value="Cape Town">Cape Town</option>
+        </select>
         <br>
-        <input type="text" name="name_input">
-        <br>
-        <input type="submit" value="GREET" id="greet" onclick="submitForm()">
+        <input type="submit" value="Register" id="greet" onclick="submitForm()">
     </form>
-{% endblock %}
+{% endblock %} .
